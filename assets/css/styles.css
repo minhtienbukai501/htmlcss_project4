@@ -516,6 +516,10 @@ a {
     line-height: 1;
 }
 
+.features__item:hover {
+    cursor: pointer;
+}
+
 .features__item:not(:first-child) .features__item-img {
     width: 24px;
     height: 23px;

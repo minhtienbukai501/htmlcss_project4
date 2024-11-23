@@ -7,3 +7,13 @@ for (const item of featuresItem) {
         item.classList.add("active");
     };
 }
+
+const navItem = document.querySelectorAll(".nav__item-link");
+for (const item of navItem) {
+    item.onclick = () => {
+        document
+            .querySelector(".nav__item-link.active")
+            .classList.remove("active");
+        item.classList.add("active");
+    };
+}
